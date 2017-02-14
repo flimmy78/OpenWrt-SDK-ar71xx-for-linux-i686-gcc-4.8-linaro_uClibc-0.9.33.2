@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/home/flyinker/Gitrepos/Source/Openwrt/mw-ar01-v3/staging_dir/host/bin/bison' -y "$@"

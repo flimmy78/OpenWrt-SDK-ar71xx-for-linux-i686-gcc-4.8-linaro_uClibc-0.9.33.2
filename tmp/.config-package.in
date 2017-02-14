@@ -1,0 +1,20 @@
+menuconfig IMAGEOPT
+	bool "Image configuration"
+	default n
+source "package/*/image-config.in"
+menu "Utilities"
+
+	config PACKAGE_helloworld
+		tristate "helloworld......................... Helloworld -- prints a snarky message"
+		default y if DEFAULT_helloworld
+		default m if ALL
+		select PACKAGE_libpthread if USE_EGLIBC
+		select PACKAGE_librt if USE_EGLIBC
+		select PACKAGE_libc
+		help
+		 If you can't figure out what this program does, you're probably
+		         brain-dead and need immediate medical attention.
+		 
+
+endmenu
+

@@ -1,0 +1,29 @@
+#OpenWrt Makefile for mqtt_sub program
+########################################
+
+include $(TOPDIR)/rules.mk
+PKG_NAME:=mqtt_sub
+PKG_RELEASE:=1
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
+include $(INCLUDE_DIR)/package.mk
+define Package/mqtt_sub
+	SECTION:=utils
+	CATEGORY:=Utilities
+	TITLE:=mqtt_sub -- prints a snarky message
+	DEPENDS:=+libc +libpthread +librt +libmosquitto
+endef
+define Package/mqtt_sub/description
+	If you can't figure out what this program does, you're probably
+	brain-dead and need immediate medical attention.
+endef
+define Build/Prepare
+	mkdir -p $(PKG_BUILD_DIR)
+	$(CP) ./src/* $(PKG_BUILD_DIR)/
+endef
+define Package/mqtt_sub/install
+	mkdir -p $(1)/usr/bin/dataroute
+	$(INSTALL_DIR) $(1)/usr/bin/dataroute
+	$(INSTALL_BIN) $(PKG_BUILD_DIR)/mqtt_sub $(1)/usr/bin/dataroute
+endef
+$(eval $(call BuildPackage,mqtt_sub))
+

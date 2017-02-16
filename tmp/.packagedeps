@@ -1,1 +1,5 @@
+package-$(CONFIG_PACKAGE_data_router_com) += data_router_com
 package-$(CONFIG_PACKAGE_helloworld) += helloworld
+package-$(CONFIG_PACKAGE_mqtt_pub) += mqtt_pub
+package-$(CONFIG_PACKAGE_mqtt_sub) += mqtt_sub
+package-$(CONFIG_PACKAGE_netToAssistant) += netToAssistant

@@ -1,0 +1,29 @@
+#OpenWrt Makefile for mqtt_pub program
+########################################
+
+include $(TOPDIR)/rules.mk
+PKG_NAME:=mqtt_pub
+PKG_RELEASE:=1
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
+include $(INCLUDE_DIR)/package.mk
+define Package/mqtt_pub
+	SECTION:=utils
+	CATEGORY:=Utilities
+	TITLE:=mqtt_pub -- prints a snarky message
+        DEPENDS:=+libc +libpthread +librt +libmosquitto +lsqlite3
+endef
+define Package/mqtt_pub/description
+	If you can't figure out what this program does, you're probably
+	brain-dead and need immediate medical attention.
+endef
+define Build/Prepare
+	mkdir -p $(PKG_BUILD_DIR)
+	$(CP) ./src/* $(PKG_BUILD_DIR)/
+endef
+define Package/mqtt_pub/install
+	mkdir -p $(1)/usr/bin/dataroute
+	$(INSTALL_DIR) $(1)/usr/bin/dataroute
+	$(INSTALL_BIN) $(PKG_BUILD_DIR)/mqtt_pub $(1)/usr/bin/dataroute
+endef
+$(eval $(call BuildPackage,mqtt_pub))
+

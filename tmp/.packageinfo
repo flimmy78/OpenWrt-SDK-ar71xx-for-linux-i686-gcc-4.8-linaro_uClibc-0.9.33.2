@@ -1,3 +1,39 @@
+Source-Makefile: package/data_router_com/Makefile
+Package: data_router_com
+Version: 1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +libpthread +librt
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: data_router_com -- prints a snarky message
+Maintainer: 
+Source: 
+Type: ipkg
+Description: 	If you can't figure out what this program does, you're probably
+	brain-dead and need immediate medical attention.
+
+@@
+
+
+Source-Makefile: package/mqtt_sub/Makefile
+Package: mqtt_sub
+Version: 1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +libpthread +librt +libmosquitto
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: mqtt_sub -- prints a snarky message
+Maintainer: 
+Source: 
+Type: ipkg
+Description: 	If you can't figure out what this program does, you're probably
+	brain-dead and need immediate medical attention.
+
+@@
+
+
 Source-Makefile: package/helloworld/Makefile
 Package: helloworld
 Version: v2
@@ -12,6 +48,42 @@ Source:
 Type: ipkg
 Description:         If you can't figure out what this program does, you're probably
         brain-dead and need immediate medical attention.
+
+@@
+
+
+Source-Makefile: package/mqtt_pub/Makefile
+Package: mqtt_pub
+Version: 1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +libpthread +librt +libmosquitto +lsqlite3
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: mqtt_pub -- prints a snarky message
+Maintainer: 
+Source: 
+Type: ipkg
+Description: 	If you can't figure out what this program does, you're probably
+	brain-dead and need immediate medical attention.
+
+@@
+
+
+Source-Makefile: package/netToAssistant/Makefile
+Package: netToAssistant
+Version: 1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +libpthread +librt
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Title: netToAssistant -- prints a snarky message
+Maintainer: 
+Source: 
+Type: ipkg
+Description: 	If you can't figure out what this program does, you're probably
+	brain-dead and need immediate medical attention.
 
 @@
 

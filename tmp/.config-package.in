@@ -4,16 +4,75 @@ menuconfig IMAGEOPT
 source "package/*/image-config.in"
 menu "Utilities"
 
+	config PACKAGE_data_router_com
+		tristate "data_router_com............... data_router_com -- prints a snarky message"
+		default y if DEFAULT_data_router_com
+		default m if ALL
+		select PACKAGE_librt
+		select PACKAGE_libc
+		select PACKAGE_libpthread
+		select PACKAGE_libpthread if USE_EGLIBC
+		select PACKAGE_librt if USE_EGLIBC
+		help
+		 If you can't figure out what this program does, you're probably
+		 	brain-dead and need immediate medical attention.
+		 
+
 	config PACKAGE_helloworld
 		tristate "helloworld......................... Helloworld -- prints a snarky message"
 		default y if DEFAULT_helloworld
 		default m if ALL
-		select PACKAGE_libpthread if USE_EGLIBC
-		select PACKAGE_librt if USE_EGLIBC
 		select PACKAGE_libc
+		select PACKAGE_librt if USE_EGLIBC
+		select PACKAGE_libpthread if USE_EGLIBC
 		help
 		 If you can't figure out what this program does, you're probably
 		         brain-dead and need immediate medical attention.
+		 
+
+	config PACKAGE_mqtt_pub
+		tristate "mqtt_pub............................. mqtt_pub -- prints a snarky message"
+		default y if DEFAULT_mqtt_pub
+		default m if ALL
+		select PACKAGE_lsqlite3
+		select PACKAGE_libc
+		select PACKAGE_librt
+		select PACKAGE_libmosquitto
+		select PACKAGE_librt if USE_EGLIBC
+		select PACKAGE_libpthread if USE_EGLIBC
+		select PACKAGE_libpthread
+		help
+		 If you can't figure out what this program does, you're probably
+		 	brain-dead and need immediate medical attention.
+		 
+
+	config PACKAGE_mqtt_sub
+		tristate "mqtt_sub............................. mqtt_sub -- prints a snarky message"
+		default y if DEFAULT_mqtt_sub
+		default m if ALL
+		select PACKAGE_libpthread
+		select PACKAGE_libpthread if USE_EGLIBC
+		select PACKAGE_librt if USE_EGLIBC
+		select PACKAGE_librt
+		select PACKAGE_libmosquitto
+		select PACKAGE_libc
+		help
+		 If you can't figure out what this program does, you're probably
+		 	brain-dead and need immediate medical attention.
+		 
+
+	config PACKAGE_netToAssistant
+		tristate "netToAssistant................. netToAssistant -- prints a snarky message"
+		default y if DEFAULT_netToAssistant
+		default m if ALL
+		select PACKAGE_libc
+		select PACKAGE_librt
+		select PACKAGE_librt if USE_EGLIBC
+		select PACKAGE_libpthread
+		select PACKAGE_libpthread if USE_EGLIBC
+		help
+		 If you can't figure out what this program does, you're probably
+		 	brain-dead and need immediate medical attention.
 		 
 
 endmenu

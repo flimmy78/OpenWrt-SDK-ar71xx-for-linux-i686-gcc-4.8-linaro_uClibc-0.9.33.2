@@ -1,1 +1,5 @@
+$(eval $(call PackageDir,data_router_com,data_router_com))
+$(eval $(call PackageDir,mqtt_sub,mqtt_sub))
 $(eval $(call PackageDir,helloworld,helloworld))
+$(eval $(call PackageDir,mqtt_pub,mqtt_pub))
+$(eval $(call PackageDir,netToAssistant,netToAssistant))

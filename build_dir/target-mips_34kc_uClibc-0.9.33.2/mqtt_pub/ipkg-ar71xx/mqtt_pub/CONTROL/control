@@ -1,0 +1,9 @@
+Package: mqtt_pub
+Version: 1
+Depends: libc, libpthread, librt, libmosquitto, lsqlite3
+Source: package/mqtt_pub
+Section: utils
+Architecture: ar71xx
+Installed-Size: 12653
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.

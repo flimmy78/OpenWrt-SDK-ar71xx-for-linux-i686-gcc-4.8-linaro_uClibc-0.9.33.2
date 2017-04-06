@@ -1,0 +1,9 @@
+Package: netToAssistant
+Version: 1
+Depends: libc, libpthread, librt
+Source: package/netToAssistant
+Section: utils
+Architecture: ar71xx
+Installed-Size: 7078
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.

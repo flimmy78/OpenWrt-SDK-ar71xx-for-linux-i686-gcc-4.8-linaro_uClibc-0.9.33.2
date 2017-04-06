@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gbk"?>
+<mqtt_config>
+                <mqtt_address>172.16.6.108</mqtt_address>
+                <mqtt_clientID>201603161115999</mqtt_clientID>
+                <mqtt_bind_address>172.16.6.207</mqtt_bind_address>
+                <mqtt_port>1883</mqtt_port>
+                <mqtt_iqos>0</mqtt_iqos>
+                <mqtt_topic>invt</mqtt_topic>
+                <mqtt_keepalive>6000</mqtt_keepalive>
+                <mqtt_timeout>10000</mqtt_timeout>
+                <mqtt_usename> </mqtt_usename>
+                <mqtt_pwd> </mqtt_pwd>
+                <json_type>2</json_type>
+                <json_addr_key>k</json_addr_key>
+</mqtt_config>

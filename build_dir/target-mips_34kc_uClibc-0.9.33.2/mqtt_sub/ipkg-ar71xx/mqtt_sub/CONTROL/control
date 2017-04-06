@@ -1,0 +1,9 @@
+Package: mqtt_sub
+Version: 1
+Depends: libc, libpthread, librt, libmosquitto
+Source: package/mqtt_sub
+Section: utils
+Architecture: ar71xx
+Installed-Size: 10261
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.

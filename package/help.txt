@@ -1,0 +1,4 @@
+vim -t main
+:TlistOpen
+跳入函数 ctr + ]
+后退 ctr + o

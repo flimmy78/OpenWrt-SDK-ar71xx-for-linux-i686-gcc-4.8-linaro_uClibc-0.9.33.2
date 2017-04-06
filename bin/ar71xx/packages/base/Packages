@@ -1,0 +1,70 @@
+Package: data_router_com
+Version: 1
+Depends: libc, libpthread, librt
+Source: package/data_router_com
+Section: utils
+Architecture: ar71xx
+Installed-Size: 16663
+Filename: data_router_com_1_ar71xx.ipk
+Size: 17202
+MD5Sum: 349e8971c27c76d10fa64e6534727a88
+SHA256sum: 82db02437bdea830cc7e820bb9128c0f73f181326a3673ecc204fbed137ecbf5
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.
+
+Package: helloworld
+Version: v2
+Depends: libc
+Source: package/helloworld
+Section: utils
+Architecture: ar71xx
+Installed-Size: 1231
+Filename: helloworld_v2_ar71xx.ipk
+Size: 1792
+MD5Sum: ddbf7c50ba727ddaecd09f0568b41cf0
+SHA256sum: 6fb0b2334388ae16b5fab9c3e192312cd441fdeca9e8a173be7f1c05b169a83e
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.
+
+Package: mqtt_pub
+Version: 1
+Depends: libc, libpthread, librt, libmosquitto, lsqlite3
+Source: package/mqtt_pub
+Section: utils
+Architecture: ar71xx
+Installed-Size: 12653
+Filename: mqtt_pub_1_ar71xx.ipk
+Size: 13250
+MD5Sum: 5b7fef714d41dbdcb05f330f273372ca
+SHA256sum: 6990c654f8cfd821e679fa3dc548ecdf62f32264b7e9c08ad7bba2c17ef44148
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.
+
+Package: mqtt_sub
+Version: 1
+Depends: libc, libpthread, librt, libmosquitto
+Source: package/mqtt_sub
+Section: utils
+Architecture: ar71xx
+Installed-Size: 10261
+Filename: mqtt_sub_1_ar71xx.ipk
+Size: 10844
+MD5Sum: 43e2471e4f8600f63f0a18de000f8890
+SHA256sum: c3e7ec9dab074ab6f37117181552f812ea436ca3fc355ac49c2936924a354e24
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.
+
+Package: netToAssistant
+Version: 1
+Depends: libc, libpthread, librt
+Source: package/netToAssistant
+Section: utils
+Architecture: ar71xx
+Installed-Size: 7078
+Filename: netToAssistant_1_ar71xx.ipk
+Size: 7685
+MD5Sum: f0f41cc33818f9f250d898d7650976f3
+SHA256sum: f20087df3a791320e3b730e90c8207bc38026f3c271dfd463774275f0baef497
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.
+

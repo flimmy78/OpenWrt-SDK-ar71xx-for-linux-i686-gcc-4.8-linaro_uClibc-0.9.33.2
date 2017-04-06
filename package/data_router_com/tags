@@ -1,0 +1,495 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDR_CONFIG_PATH_COM1	src/common.h	60;"	d
+ADDR_CONFIG_PATH_COM2	src/common.h	61;"	d
+APPTCP_H	src/apptcp.h	2;"	d
+AppendNode	src/listmanager.c	/^void AppendNode(linearlist* list, tagTaskItem taskItemTemp)  \/* 追加节点 *\/$/;"	f
+Build	Makefile	/^define Build\/Prepare$/;"	m
+CC	src/Makefile	/^echo "CC=$(CC)"$/;"	m
+CHDOWNCMD	src/common.h	45;"	d
+CHDOWNCMD	src/ramrt.h	24;"	d
+COM1_CONFIG	src/common.h	70;"	d
+COM1_CONFIG_NAME	src/common.h	71;"	d
+COM2_CONFIG	src/common.h	73;"	d
+COM2_CONFIG_NAME	src/common.h	74;"	d
+COM_TIME_OUT	src/qcommunicatebase.h	21;"	d
+CRC_Value	src/qcommunicatemanage.c	/^int CRC_Value(unsigned char *pBuf, int iLen)\/\/CRC校验$/;"	f
+CleanCurrentTask	src/qcommunicatemanage.c	/^void CleanCurrentTask(void)\/\/清除正在执行的任务$/;"	f
+ClearComBuf	src/qcommunicatebase.c	/^void ClearComBuf(void) \/\/清除串口缓冲区$/;"	f
+Connect	src/qcommunicatebase.c	/^bool Connect(void)$/;"	f
+CreateDataFrame	src/common.c	/^void CreateDataFrame()$/;"	f
+CreateList	src/listmanager.c	/^linearlist* CreateList()\/* 创建线性顺序表 *\/$/;"	f
+CreateThread_Manage	src/qcommunicatemanage.c	/^void CreateThread_Manage(void)\/\/创建线程$/;"	f
+DEBUG_INFO	src/apptcp.c	17;"	d	file:
+DEBUG_INFO	src/httpcomm.c	17;"	d	file:
+DEVICENUM	src/common.h	43;"	d
+DEVICENUM	src/ramrt.h	22;"	d
+DEVICETYPESIZE	src/common.h	46;"	d
+DEVICETYPESIZE	src/common.h	57;"	d
+DEVICETYPESIZE	src/ramrt.h	25;"	d
+DOWD_CMD_LENGTH_MAX	src/common.h	47;"	d
+DOWD_CMD_LENGTH_MAX	src/ramrt.h	26;"	d
+DRIVE1_CMD	src/main.c	9;"	d	file:
+DRIVE2_CMD	src/main.c	10;"	d	file:
+DRIVERNUM	src/common.h	42;"	d
+DRIVERNUM	src/ramrt.h	21;"	d
+DRIVE_ALL_UPDATE	src/main.c	11;"	d	file:
+DRIVE_COM1	src/common.h	28;"	d
+DeleteNode	src/listmanager.c	/^void DeleteNode(linearlist* list, int pos)  \/* 删除节点 *\/$/;"	f
+DeviceAddrInfo	src/common.h	/^ }DeviceAddrInfo;$/;"	t	typeref:struct:__anon9
+DeviceConfigInfo	src/common.h	/^}DeviceConfigInfo;$/;"	t	typeref:struct:__anon4
+DeviceDataFrame	src/common.h	/^}DeviceDataFrame;$/;"	t	typeref:struct:__anon2
+DeviceDataInfo	src/common.h	/^}DeviceDataInfo;$/;"	t	typeref:struct:__anon5
+DeviceMulConfigInfo	src/common.h	/^}DeviceMulConfigInfo;$/;"	t	typeref:struct:__anon7
+Disconnect	src/qcommunicatebase.c	/^void Disconnect(void)$/;"	f
+EN_COM1	src/common.h	/^    EN_COM1 = 0,$/;"	e	enum:__anon11
+EN_COM1_VALUE	src/common.h	/^    EN_COM1_VALUE = 1,$/;"	e	enum:__anon10
+EN_COM2	src/common.h	/^    EN_COM2$/;"	e	enum:__anon11
+EN_COM2_VALUE	src/common.h	/^    EN_COM2_VALUE$/;"	e	enum:__anon10
+EN_DRIVE_NUM	src/common.h	/^}EN_DRIVE_NUM;$/;"	t	typeref:enum:__anon11
+EN_DRIVE_NUM_VALUE	src/common.h	/^}EN_DRIVE_NUM_VALUE;$/;"	t	typeref:enum:__anon10
+ERR_CRC	src/listmanager.h	/^    ERR_CRC,         \/\/CRC校验错误$/;"	e	enum:__anon25
+ERR_Data	src/listmanager.h	/^    ERR_Data         \/\/数据个数不匹配或值不对$/;"	e	enum:__anon25
+ERR_None	src/listmanager.h	/^    ERR_None = 0,    \/\/成功完成,没有错误$/;"	e	enum:__anon25
+ERR_TimeOut	src/listmanager.h	/^    ERR_TimeOut = 100, \/\/任务超时$/;"	e	enum:__anon25
+ErgodicList	src/qcommunicatemanage.c	/^void ErgodicList(enTaskType type)\/\/遍历链表,找出最迫切需要执行的任务,放到链表首部$/;"	f
+ExitThread_Manage	src/qcommunicatemanage.c	/^void ExitThread_Manage(void)\/\/退出线程$/;"	f
+FUNC_RECVSUCCESS	src/qcommunicatebase.h	/^typedef void (*FUNC_RECVSUCCESS)(UCHAR *pRecvBuf, ULONG addr, int len); \/\/接收成功的函数指针$/;"	t
+FUNC_TASKCALLBACK	src/listmanager.h	/^typedef void (*FUNC_TASKCALLBACK)(ULONG ulTaskID,\/\/任务的身份标识$/;"	t
+GetAddrNum	src/common.c	/^unsigned int GetAddrNum(FILE* fp)$/;"	f
+GetCRC	src/qcommunicatemanage.c	/^USHORT GetCRC(UCHAR *pChar, int iNum)\/\/得到CRC校验值$/;"	f
+GetCsvTotalLine	src/common.c	/^unsigned int GetCsvTotalLine(FILE* fp)$/;"	f
+GetFrameNum	src/common.c	/^unsigned int GetFrameNum(SignalDevice src)$/;"	f
+GetXmlElement	src/common.c	/^int GetXmlElement(FILE* fp, const char* sName, char* sValue)$/;"	f
+HTTPCOMM_H	src/httpcomm.h	2;"	d
+INIT_TIME	src/main.c	13;"	d	file:
+INSTDIR	src/Makefile	/^INSTDIR   = $(prefix)\/usr\/bin$/;"	m
+INSTGROUP	src/Makefile	/^INSTGROUP = root$/;"	m
+INSTMODE	src/Makefile	/^INSTMODE  = 0755$/;"	m
+INSTOWNER	src/Makefile	/^INSTOWNER = root$/;"	m
+IncreaseSort	src/common.c	/^int IncreaseSort(DeviceConfigInfo* deviceInfo, unsigned num, EN_DRIVE_NUM enDrive)$/;"	f
+InsertNode	src/listmanager.c	/^void InsertNode(linearlist* list, tagTaskItem taskItemTemp, int pos) \/* 插入节点 *\/$/;"	f
+IsExist	src/qcommunicatebase.c	/^int IsExist()\/\/用户判断此通信属性是否已经存在(串口)$/;"	f
+LIBMOSQUITTO_MAJOR	src/mosquitto.h	66;"	d
+LIBMOSQUITTO_MINOR	src/mosquitto.h	67;"	d
+LIBMOSQUITTO_REVISION	src/mosquitto.h	68;"	d
+LIBMOSQUITTO_VERSION_NUMBER	src/mosquitto.h	70;"	d
+ListList	src/listmanager.c	/^void ListList(linearlist* list) \/* 打印线性顺序表 *\/$/;"	f
+MAXDATASIZE	src/apptcp.c	20;"	d	file:
+MAXDATASIZE	src/httpcomm.c	27;"	d	file:
+MAXDOWNCMDNUM	src/common.h	44;"	d
+MAXDOWNCMDNUM	src/ramrt.h	23;"	d
+MAXLISTSIZE	src/listmanager.h	9;"	d
+MAX_DATA_BUFFER_SIZE	src/listmanager.h	10;"	d
+MAX_DEV_NUM	src/common.h	56;"	d
+MAX_LEN	src/common.h	55;"	d
+MAX_LINE_SIZE	src/common.h	53;"	d
+MAX_READ_LEN	src/common.h	54;"	d
+MAX_RECVNORMAL_BUFFER_SIZE	src/qcommunicatebase.h	17;"	d
+MAX_RECVOSCILLO_BUFFER_SIZE	src/qcommunicatebase.h	18;"	d
+MAX_SENDNORMAL_BUFFER_SIZE	src/qcommunicatebase.h	16;"	d
+MF_Addr_AllId	src/listmanager.h	/^    MF_Addr_AllId,\/\/针对指定地址(串口从机地址或以太网IP地址)和所有身份标记$/;"	e	enum:__anon26
+MF_Addr_MultiId	src/listmanager.h	/^    MF_Addr_MultiId\/\/针对指定地址(串口从机地址或以太网IP地址)和指定区间(id1~id2)的身份标记$/;"	e	enum:__anon26
+MF_Addr_OneId	src/listmanager.h	/^    MF_Addr_OneId,\/\/针对指定地址(串口从机地址或以太网IP地址)和指定身份标记(id1)$/;"	e	enum:__anon26
+MF_Addr_Type	src/listmanager.h	/^    MF_Addr_Type,\/\/针对指定地址(串口从机地址或以太网IP地址)和指定任务类型$/;"	e	enum:__anon26
+MF_All	src/listmanager.h	/^    MF_All,\/\/针对所有$/;"	e	enum:__anon26
+MOSQ_ERR_ACL_DENIED	src/mosquitto.h	/^	MOSQ_ERR_ACL_DENIED = 12,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_AUTH	src/mosquitto.h	/^	MOSQ_ERR_AUTH = 11,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_CONN_LOST	src/mosquitto.h	/^	MOSQ_ERR_CONN_LOST = 7,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_CONN_PENDING	src/mosquitto.h	/^	MOSQ_ERR_CONN_PENDING = -1,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_CONN_REFUSED	src/mosquitto.h	/^	MOSQ_ERR_CONN_REFUSED = 5,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_EAI	src/mosquitto.h	/^	MOSQ_ERR_EAI = 15$/;"	e	enum:mosq_err_t
+MOSQ_ERR_ERRNO	src/mosquitto.h	/^	MOSQ_ERR_ERRNO = 14,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_INVAL	src/mosquitto.h	/^	MOSQ_ERR_INVAL = 3,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_NOMEM	src/mosquitto.h	/^	MOSQ_ERR_NOMEM = 1,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_NOT_FOUND	src/mosquitto.h	/^	MOSQ_ERR_NOT_FOUND = 6,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_NOT_SUPPORTED	src/mosquitto.h	/^	MOSQ_ERR_NOT_SUPPORTED = 10,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_NO_CONN	src/mosquitto.h	/^	MOSQ_ERR_NO_CONN = 4,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_PAYLOAD_SIZE	src/mosquitto.h	/^	MOSQ_ERR_PAYLOAD_SIZE = 9,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_PROTOCOL	src/mosquitto.h	/^	MOSQ_ERR_PROTOCOL = 2,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_SUCCESS	src/mosquitto.h	/^	MOSQ_ERR_SUCCESS = 0,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_TLS	src/mosquitto.h	/^	MOSQ_ERR_TLS = 8,$/;"	e	enum:mosq_err_t
+MOSQ_ERR_UNKNOWN	src/mosquitto.h	/^	MOSQ_ERR_UNKNOWN = 13,$/;"	e	enum:mosq_err_t
+MOSQ_LOG_ALL	src/mosquitto.h	81;"	d
+MOSQ_LOG_DEBUG	src/mosquitto.h	78;"	d
+MOSQ_LOG_ERR	src/mosquitto.h	77;"	d
+MOSQ_LOG_INFO	src/mosquitto.h	74;"	d
+MOSQ_LOG_NONE	src/mosquitto.h	73;"	d
+MOSQ_LOG_NOTICE	src/mosquitto.h	75;"	d
+MOSQ_LOG_SUBSCRIBE	src/mosquitto.h	79;"	d
+MOSQ_LOG_UNSUBSCRIBE	src/mosquitto.h	80;"	d
+MOSQ_LOG_WARNING	src/mosquitto.h	76;"	d
+MOSQ_MQTT_ID_MAX_LENGTH	src/mosquitto.h	105;"	d
+MQTT_CONFIG	src/common.h	66;"	d
+MQTT_CONFIG_NAME	src/common.h	67;"	d
+MQTT_CONFIG_TEMP	src/common.h	68;"	d
+OBJS	src/Makefile	/^OBJS = main.o  qcommunicatemanage.o qcommunicatebase.o common.o listmanager.o ramrt.o  httpcomm.o apptcp.o$/;"	m
+OSCILLO_DATA_POINT_NUM	src/qcommunicatebase.h	19;"	d
+OS_UNIX	src/common.h	11;"	d
+OS_UNIX	src/ramrt.h	1;"	d
+OpenCom	src/qcommunicatebase.c	/^int OpenCom(const char* dev)$/;"	f
+Output	src/listmanager.c	/^void Output(linearlist* list) \/* 打印说明文档 *\/$/;"	f
+PA_TaskOvertime	src/listmanager.h	/^    PA_TaskOvertime,\/\/修改任务的超时时间$/;"	e	enum:__anon27
+PA_TaskRetry	src/listmanager.h	/^    PA_TaskRetry\/\/修改任务的失败重试次数$/;"	e	enum:__anon27
+PA_TaskSpan	src/listmanager.h	/^    PA_TaskSpan,\/\/修改任务的周期$/;"	e	enum:__anon27
+PA_TaskState	src/listmanager.h	/^    PA_TaskState,\/\/修改任务的状态(删除TS_Delete,暂停TS_Pause,重启TS_Ready)$/;"	e	enum:__anon27
+PKG_BUILD_DIR	Makefile	/^PKG_BUILD_DIR:=$(BUILD_DIR)\/$(PKG_NAME)$/;"	m
+PKG_NAME	Makefile	/^PKG_NAME:=data_router_com$/;"	m
+PKG_RELEASE	Makefile	/^PKG_RELEASE:=1$/;"	m
+PORT_APP_TCP	src/apptcp.c	18;"	d	file:
+PORT_HTTP	src/httpcomm.c	20;"	d	file:
+PORT_HTTP	src/httpcomm.c	22;"	d	file:
+PROGS	src/Makefile	/^PROGS     = data_router_com$/;"	m
+Package	Makefile	/^define Package\/data_router_com$/;"	m
+Package	Makefile	/^define Package\/data_router_com\/description$/;"	m
+Package	Makefile	/^define Package\/data_router_com\/install	$/;"	m
+QCommuSerial_free	src/qcommunicatebase.c	/^void QCommuSerial_free()$/;"	f
+QCommuSerial_init	src/qcommunicatebase.c	/^void QCommuSerial_init(FUNC_RECVSUCCESS pRecv)$/;"	f
+READ_CMD	src/httpcomm.c	28;"	d	file:
+ReadAddrConfigFile	src/common.c	/^int ReadAddrConfigFile(const char* path, EN_DRIVE_NUM enDrive)$/;"	f
+ReadComConfig	src/common.c	/^int ReadComConfig(const char* path, EN_DRIVE_NUM enDrive)$/;"	f
+ReadXmlFile	src/common.c	/^int ReadXmlFile(const char* path)$/;"	f
+SERIAL_COMMAND_READ	src/listmanager.h	16;"	d
+SERIAL_COMMAND_WRITE_MULTI	src/listmanager.h	18;"	d
+SERIAL_COMMAND_WRITE_ONE	src/listmanager.h	17;"	d
+SERIAL_CONFIG	src/common.h	63;"	d
+SERIAL_CONFIG_NAME	src/common.h	64;"	d
+SERIAL_CONFIG_PATH	src/common.h	59;"	d
+SFunCallback_RecvNormal	src/qcommunicatemanage.c	/^void SFunCallback_RecvNormal(UCHAR *pRecvBuf, ULONG addr, int len)$/;"	f
+SHMDBKEYRTRAM_RT	src/common.h	49;"	d
+SHMDBKEYRTRAM_RT	src/ramrt.h	28;"	d
+SHM_MODE	src/common.h	38;"	d
+SHM_MODE	src/ramrt.h	17;"	d
+SOCKET	src/common.h	/^typedef unsigned short SOCKET;$/;"	t
+SPANDAY_SEC	src/listmanager.h	80;"	d
+STATION_SIZE	src/common.h	50;"	d
+STATION_SIZE	src/ramrt.h	29;"	d
+SaveData	src/main.c	/^int SaveData(EN_DRIVE_NUM EN_NUM, USHORT* buffer, unsigned short addr, unsigned char num , ULONG ID)$/;"	f
+SendData	src/qcommunicatebase.c	/^void SendData(\/*char*\/UCHAR *buffer, int len) \/\/发送数据$/;"	f
+SerialConfig	src/common.h	/^}SerialConfig;$/;"	t	typeref:struct:__anon3
+SerialInfo	src/common.c	/^SerialConfig* SerialInfo;        \/\/串口信息$/;"	v
+SerialInit	src/qcommunicatebase.c	/^int SerialInit()$/;"	f
+Serial_DealWith_RecvNormal	src/qcommunicatemanage.c	/^void Serial_DealWith_RecvNormal(UCHAR *pRecvBuf, ULONG addr, int len) \/\/串口:处理接收到的数据$/;"	f
+Serial_DealWith_RecvNormal_Correct	src/qcommunicatemanage.c	/^void Serial_DealWith_RecvNormal_Correct(UCHAR *pRecvBuf)\/\/串口:处理接收到的数据(应答正确)$/;"	f
+Serial_DealWith_RecvNormal_Fault	src/qcommunicatemanage.c	/^void Serial_DealWith_RecvNormal_Fault(UCHAR *pRecvBuf)\/\/串口:处理接收到的数据(应答错误)$/;"	f
+Serial_DealWith_SendNormal	src/qcommunicatemanage.c	/^void Serial_DealWith_SendNormal(void)\/\/串口:构造需要发送的内容$/;"	f
+SetBufSize_RecvNormal	src/qcommunicatebase.c	/^void SetBufSize_RecvNormal(int iRecvBufferSize)\/\/同上$/;"	f
+SetBufSize_SendNormal	src/qcommunicatebase.c	/^void SetBufSize_SendNormal(int iSendBufferSize)$/;"	f
+SetParity	src/qcommunicatebase.c	/^int SetParity(int fd, int databits, int stopbits, int parity,int iTimeOut)$/;"	f
+SetSpeed	src/qcommunicatebase.c	/^int SetSpeed(int fd, int speed)$/;"	f
+SignalDataFrame	src/common.h	/^}SignalDataFrame;$/;"	t	typeref:struct:__anon1
+SignalDevice	src/common.h	/^}SignalDevice;$/;"	t	typeref:struct:__anon6
+SignalDeviceInfo	src/common.h	/^}SignalDeviceInfo;$/;"	t	typeref:struct:__anon8
+StrReplace	src/httpcomm.c	/^int StrReplace(char strRes[],char from[], char to[])$/;"	f
+StructDriverDownData	src/ramrt.h	/^}StructDriverDownData;$/;"	t	typeref:struct:__anon15
+StructDriverUpData	src/ramrt.h	/^}StructDriverUpData;$/;"	t	typeref:struct:__anon14
+StructModbusUnit	src/ramrt.h	/^}StructModbusUnit;$/;"	t	typeref:struct:__anon12
+StructStation	src/ramrt.h	/^}StructStation;$/;"	t	typeref:struct:__anon16
+StructUpModbusData	src/ramrt.h	/^}StructUpModbusData;$/;"	t	typeref:struct:__anon13
+THREAD_SLEEP_SPAN	src/apptcp.h	11;"	d
+THREAD_SLEEP_SPAN	src/httpcomm.h	11;"	d
+THREAD_SLEEP_SPAN	src/qcommunicatebase.h	20;"	d
+TS_Bottom	src/listmanager.h	/^    TS_Bottom$/;"	e	enum:__anon24
+TS_Delete	src/listmanager.h	/^    TS_Delete,       \/\/待删除$/;"	e	enum:__anon24
+TS_Error	src/listmanager.h	/^    TS_Error,        \/\/出错(例如通信超时、CRC校验失败等等原因)$/;"	e	enum:__anon24
+TS_Finish	src/listmanager.h	/^    TS_Finish,       \/\/结束(包括成功和失败)$/;"	e	enum:__anon24
+TS_Pause	src/listmanager.h	/^    TS_Pause,        \/\/暂停$/;"	e	enum:__anon24
+TS_Ready	src/listmanager.h	/^    TS_Ready,        \/\/就绪$/;"	e	enum:__anon24
+TS_Running	src/listmanager.h	/^    TS_Running,      \/\/执行中$/;"	e	enum:__anon24
+TT_0TempWrite	src/listmanager.h	/^    TT_0TempWrite,	 \/\/临时写任务(优先级最高)$/;"	e	enum:__anon23
+TT_1TempRead	src/listmanager.h	/^    TT_1TempRead,	 \/\/临时读任务$/;"	e	enum:__anon23
+TT_2PeriodShake	src/listmanager.h	/^    TT_2PeriodShake, \/\/周期示波握手任务$/;"	e	enum:__anon23
+TT_3PeriodRead	src/listmanager.h	/^    TT_3PeriodRead,	 \/\/周期读数据任务(优先级最低)$/;"	e	enum:__anon23
+TT_Bottom	src/listmanager.h	/^    TT_Bottom$/;"	e	enum:__anon23
+ThreadHttp	src/httpcomm.c	/^void* ThreadHttp(void* pVoid)$/;"	f
+ThreadProc_Manage	src/qcommunicatemanage.c	/^void* ThreadProc_Manage(void* pvoid)\/\/管理者线程:负责管理和调度任务链表$/;"	f
+ThreadTCP	src/apptcp.c	/^void* ThreadTCP(void* pVoid)$/;"	f
+Thread_Receive	src/qcommunicatebase.c	/^void* Thread_Receive(void* pvoid)$/;"	f
+UCHAR	src/common.h	/^typedef unsigned char  UCHAR;$/;"	t
+ULONG	src/common.h	/^typedef unsigned long  ULONG;$/;"	t
+UPCMDDATAMAX	src/common.h	41;"	d
+UPCMDDATAMAX	src/ramrt.h	20;"	d
+UPDATAMAX	src/common.h	40;"	d
+UPDATAMAX	src/ramrt.h	19;"	d
+USHORT	src/common.h	/^typedef unsigned short USHORT;$/;"	t
+UpdateCurrentTask	src/qcommunicatemanage.c	/^void UpdateCurrentTask(enTaskState state)\/\/更新正在执行的任务(只有基类Recv接收线程的回调函数会执行该函数)$/;"	f
+UserAddTask	src/qcommunicatemanage.c	/^bool UserAddTask(tagTaskItem item)$/;"	f
+UserGetMillisecond	src/qcommunicatemanage.c	/^ULONG UserGetMillisecond(void)\/\/得到当前的系统时间$/;"	f
+UserModifyTask	src/qcommunicatemanage.c	/^bool UserModifyTask(tagUserAction action, USHORT val)\/\/用户手动修改任务$/;"	f
+WRITE_CMD	src/httpcomm.c	29;"	d	file:
+_COMMON_H_	src/common.h	2;"	d
+_LISTMANAGER_H_	src/listmanager.h	2;"	d
+_MOSQUITTO_H_	src/mosquitto.h	38;"	d
+_QCOMMUNICATEBASE_H_	src/qcommunicatebase.h	2;"	d
+_QCOMMUNICATEMANAGE_H_	src/qcommunicatemanage.h	2;"	d
+addr	src/listmanager.h	/^    ULONG addr;$/;"	m	struct:__anon28
+allDeviceCOM1	src/common.h	/^DeviceConfigInfo* allDeviceCOM1;$/;"	v
+allDeviceCOM2	src/common.h	/^DeviceConfigInfo* allDeviceCOM2;$/;"	v
+allDeviceConfigInfoCOM1	src/common.h	/^DeviceConfigInfo* allDeviceConfigInfoCOM1;\/\/一次保存COM1配置表所有信息$/;"	v
+allDeviceConfigInfoCOM1	src/common.h	/^DeviceMulConfigInfo* allDeviceConfigInfoCOM1;\/\/一次保存COM1配置表所有信息$/;"	v
+allDeviceConfigInfoCOM2	src/common.h	/^DeviceConfigInfo* allDeviceConfigInfoCOM2; \/\/一次保存COM2配置表所有信息$/;"	v
+allDeviceConfigInfoCOM2	src/common.h	/^DeviceMulConfigInfo* allDeviceConfigInfoCOM2;\/\/一次保存COM2配置表所有信息$/;"	v
+allDeviceDataFrame	src/common.c	/^DeviceDataFrame* allDeviceDataFrame;$/;"	v
+bFlagClose	src/httpcomm.c	/^bool bFlagClose;\/\/如果有写，一定要写返回才能关闭socket，此过程延时处理$/;"	v
+bFlagNetwork	src/ramrt.h	/^    int bFlagNetwork;\/\/网络接通标志位false断开true接通$/;"	m	struct:__anon15
+bFlagTask	src/common.h	/^    bool bFlagTask;\/\/添加了通讯任务$/;"	m	struct:__anon6
+bFlagUpInit	src/main.c	/^bool bFlagUpInit = false;$/;"	v
+bHand	src/common.h	/^    bool bHand;\/\/成功握手$/;"	m	struct:__anon6
+bModbusflag	src/main.c	/^bool bModbusflag;$/;"	v
+bReceive	src/common.h	/^    bool bReceive;\/\/成功接受数据$/;"	m	struct:__anon6
+bSaveHand	src/common.h	/^    bool bSaveHand;\/\/保存握手数据$/;"	m	struct:__anon6
+bool	src/apptcp.h	8;"	d
+bool	src/common.h	76;"	d
+bool	src/httpcomm.h	8;"	d
+bool	src/mosquitto.h	56;"	d
+bool	src/qcommunicatebase.h	7;"	d
+cDeviceTypes	src/common.h	/^    char cDeviceTypes[DEVICETYPESIZE];\/\/a01 光伏逆变器$/;"	m	struct:__anon6
+cDeviceTypes	src/ramrt.h	/^    char cDeviceTypes[DEVICETYPESIZE];\/\/a01 光伏逆变器$/;"	m	struct:__anon13
+changeConfigContinuToSignal	src/common.c	/^int changeConfigContinuToSignal(DeviceMulConfigInfo* pConfig, int iNum, EN_DRIVE_NUM enDrive)$/;"	f
+charToHex	src/httpcomm.c	/^int charToHex(char c)$/;"	f
+charToHexTCP	src/apptcp.c	/^int charToHexTCP(char c)$/;"	f
+cjsonAddrKey	src/common.h	/^    char cjsonAddrKey[20];$/;"	m	struct:__anon3
+client_sockfd	src/httpcomm.h	/^int client_sockfd;\/\/客户端套接字$/;"	v
+client_sockfdtcp	src/apptcp.h	/^int client_sockfdtcp;\/\/客户端套接字$/;"	v
+clrDownCmdCom1	src/ramrt.c	/^int clrDownCmdCom1()$/;"	f
+clrDownCmdCom2	src/ramrt.c	/^int clrDownCmdCom2()$/;"	f
+dataFrame	src/common.h	/^    SignalDataFrame* dataFrame;\/\/所有读取的帧$/;"	m	struct:__anon2
+deviceData	src/common.h	/^    DeviceDataInfo* deviceData;\/\/该设备所有的寄存器地址和值$/;"	m	struct:__anon6
+deviceInfo	src/common.h	/^     SignalDevice* deviceInfo;\/\/每台设备包含的信息$/;"	m	struct:__anon9
+deviceNumInfoCOM1	src/common.h	/^SignalDeviceInfo* deviceNumInfoCOM1;\/\/保存每台设备要读的寄存器数量$/;"	v
+deviceNumInfoCOM2	src/common.h	/^SignalDeviceInfo* deviceNumInfoCOM2;$/;"	v
+downCmdCom1	src/ramrt.h	/^    char downCmdCom1[DOWD_CMD_LENGTH_MAX];\/\/Com1远程下发命令原始数据$/;"	m	struct:__anon15
+downCmdCom2	src/ramrt.h	/^    char downCmdCom2[DOWD_CMD_LENGTH_MAX];\/\/Com1远程下发命令原始数据$/;"	m	struct:__anon15
+downData	src/ramrt.h	/^    StructDriverDownData downData;\/\/单个驱动单次下发的指令,在数据采集其驱动去解析$/;"	m	struct:__anon16
+drive_data	src/common.h	/^DeviceAddrInfo  drive_data[DRIVERNUM];\/\/两个驱动的数据都保存在这里,0是COM1的数据，1,是COM2的数据$/;"	v
+enModifyPara	src/listmanager.h	/^}enModifyPara;$/;"	t	typeref:enum:__anon27
+enModifyWay	src/listmanager.h	/^} enModifyWay;$/;"	t	typeref:enum:__anon26
+enTaskErrReason	src/listmanager.h	/^}enTaskErrReason;$/;"	t	typeref:enum:__anon25
+enTaskState	src/listmanager.h	/^}enTaskState;$/;"	t	typeref:enum:__anon24
+enTaskType	src/listmanager.h	/^}enTaskType;$/;"	t	typeref:enum:__anon23
+false	src/apptcp.h	9;"	d
+false	src/common.h	77;"	d
+false	src/httpcomm.h	9;"	d
+false	src/mosquitto.h	58;"	d
+false	src/qcommunicatebase.h	8;"	d
+fd_serail	src/qcommunicatebase.h	/^int fd_serail;$/;"	v
+getDeviceNumByDriverIndex	src/ramrt.c	/^int getDeviceNumByDriverIndex(int idDriver)$/;"	f
+getDownCmdAndAction	src/main.c	/^void getDownCmdAndAction(EN_DRIVE_NUM_VALUE EN_VALUE, EN_DRIVE_NUM EN_NUM, char* cCmdValue)$/;"	f
+getDownCmdCom1	src/ramrt.c	/^char *getDownCmdCom1()$/;"	f
+getDownCmdCom2	src/ramrt.c	/^char *getDownCmdCom2()$/;"	f
+getDownCmdLengthCom1	src/ramrt.c	/^int getDownCmdLengthCom1()$/;"	f
+getDownCmdLengthCom2	src/ramrt.c	/^int getDownCmdLengthCom2()$/;"	f
+getDownDriver1	src/ramrt.c	/^int getDownDriver1()$/;"	f
+getDownDriver2	src/ramrt.c	/^int getDownDriver2()$/;"	f
+getDownDriver3	src/ramrt.c	/^int getDownDriver3()$/;"	f
+getDownDriver4	src/ramrt.c	/^int getDownDriver4()$/;"	f
+getIsAllUpdate	src/ramrt.c	/^int getIsAllUpdate()$/;"	f
+getNetworkFlag	src/ramrt.c	/^int getNetworkFlag( )$/;"	f
+getNetworkFlat	src/ramrt.c	/^int getNetworkFlat()$/;"	f
+getUpBuf	src/httpcomm.c	/^void getUpBuf(char* destBuf, int id, int iAddr, int iLen)$/;"	f
+getUpBufTCP	src/apptcp.c	/^void getUpBufTCP(char* destBuf, int id, int iAddr, int iLen)$/;"	f
+getValueBySplite	src/httpcomm.c	/^int getValueBySplite(char* sour, char split)$/;"	f
+get_device_up_data	src/ramrt.c	/^StructUpModbusData * get_device_up_data( int driver_id,int device_id)$/;"	f
+get_device_verison	src/ramrt.c	/^int get_device_verison( )$/;"	f
+get_up_device_addr	src/ramrt.c	/^int get_up_device_addr(  int driver_id,int device_id)$/;"	f
+get_up_device_type	src/ramrt.c	/^int get_up_device_type(  int driver_id,int device_id)$/;"	f
+getiHandAddr	src/ramrt.c	/^int getiHandAddr()$/;"	f
+iAddr	src/ramrt.h	/^    int iAddr;$/;"	m	struct:__anon12
+iAllNum	src/listmanager.h	/^    int iAllNum; \/*顺序表元素个数 *\/$/;"	m	struct:__anon30
+iBaudRate	src/common.h	/^    int	 iBaudRate;$/;"	m	struct:__anon3
+iConfigCom1Num	src/common.h	/^int iConfigCom1Num;\/\/配置表1的帧个数$/;"	v
+iConfigCom2Num	src/common.h	/^int iConfigCom2Num;\/\/配置表2的帧个数$/;"	v
+iDataBit	src/common.h	/^    int	 iDataBit;$/;"	m	struct:__anon3
+iDevFailedNum	src/main.c	/^int iDevFailedNum = 1;$/;"	v
+iDeviceID	src/common.h	/^    int iDeviceID;\/\/设备ID$/;"	m	struct:__anon2
+iDeviceID	src/common.h	/^    int iDeviceID;\/\/设备ID$/;"	m	struct:__anon6
+iDeviceID	src/common.h	/^    int iDeviceID;\/\/设备地址$/;"	m	struct:__anon4
+iDeviceID	src/common.h	/^    int iDeviceID;\/\/设备地址$/;"	m	struct:__anon7
+iDeviceID	src/common.h	/^    int iDeviceID;\/\/设备地址$/;"	m	struct:__anon8
+iDeviceID	src/ramrt.h	/^    int iDeviceID;\/\/设备地址$/;"	m	struct:__anon13
+iDeviceNum	src/common.h	/^     int iDeviceNum;\/\/标记有几台设备$/;"	m	struct:__anon9
+iDeviceNum	src/common.h	/^    int iDeviceNum;\/\/寄存器的个数$/;"	m	struct:__anon6
+iDriverNum	src/ramrt.h	/^    int iDriverNum;\/\/驱动所挂载的设备数目$/;"	m	struct:__anon16
+iFlagCom1	src/ramrt.h	/^    int iFlagCom1;\/\/上传全部数据标志位 2有 0无$/;"	m	struct:__anon15
+iFlagCom2	src/ramrt.h	/^    int iFlagCom2;\/\/上传全部数据标志位 2有 0无$/;"	m	struct:__anon15
+iFlagCom3	src/ramrt.h	/^    int iFlagCom3;\/\/标记COM1是否有下发指令 0 无 1 有$/;"	m	struct:__anon15
+iFlagCom4	src/ramrt.h	/^    int iFlagCom4;\/\/标记COM1是否有下发指令 0 无 1 有$/;"	m	struct:__anon15
+iFlagNetwork	src/ramrt.h	/^    int iFlagNetwork;\/\/网络接通标志位0断开1接通$/;"	m	struct:__anon15
+iFrameNum	src/common.h	/^    int iFrameNum;\/\/本台设备读取帧的总数$/;"	m	struct:__anon2
+iHandAddr	src/common.h	/^    int    iHandAddr;\/\/握手地址$/;"	m	struct:__anon3
+iHandMaxAddr	src/ramrt.h	/^    int iHandMaxAddr;\/\/握手成功的最大地址值$/;"	m	struct:__anon15
+iHandTime	src/common.h	/^    int    iHandTime;\/\/握手周期$/;"	m	struct:__anon3
+iHisDateSave	src/common.h	/^    int    iHisDateSave;$/;"	m	struct:__anon3
+iLenCom1	src/ramrt.h	/^    int iLenCom1;\/\/标记COM1下发指令的长度$/;"	m	struct:__anon15
+iLenCom2	src/ramrt.h	/^    int iLenCom2;\/\/标记COM1下发指令的长度$/;"	m	struct:__anon15
+iNum	src/common.h	/^    int iNum;\/\/要读取的地址个数$/;"	m	struct:__anon8
+iNum	src/common.h	/^    int iNum;\/\/连读的个数$/;"	m	struct:__anon7
+iResend	src/common.h	/^    int    iResend;\/\/重发次数$/;"	m	struct:__anon3
+iSampleTime	src/common.h	/^    int iSampleTime;\/\/采样周期(分钟)$/;"	m	struct:__anon7
+iStopBit	src/common.h	/^    int	 iStopBit;$/;"	m	struct:__anon3
+iTaskTime	src/common.h	/^    int    iTaskTime;\/\/任务周期$/;"	m	struct:__anon3
+iTimeout	src/common.h	/^    int	 iTimeout;$/;"	m	struct:__anon3
+iUpAddrNum	src/ramrt.h	/^    int iUpAddrNum;\/\/有多少个地址$/;"	m	struct:__anon13
+iUpAllDataTime	src/common.h	/^    int    iUpAllDataTime;\/\/上传全部数据周期$/;"	m	struct:__anon3
+iVerifyBit	src/common.h	/^    int    iVerifyBit;$/;"	m	struct:__anon3
+iVersion	src/ramrt.h	/^    int iVersion;$/;"	m	struct:__anon16
+id1	src/listmanager.h	/^    ULONG id1;$/;"	m	struct:__anon28
+id2	src/listmanager.h	/^    ULONG id2;$/;"	m	struct:__anon28
+idDriver	src/common.h	/^     int idDriver;\/\/两个采集驱动程序的编号  由配置表决定 0表示串口驱动1,1表示串口驱动2$/;"	m	struct:__anon9
+idDriver	src/ramrt.h	/^    int idDriver;\/\/两个采集驱动程序的编号  由配置表决定$/;"	m	struct:__anon14
+ideviceNum	src/ramrt.h	/^    int ideviceNum;\/\/本驱动挂载的设备数$/;"	m	struct:__anon14
+ijsonType	src/common.h	/^    int    ijsonType;$/;"	m	struct:__anon3
+initThreadHttp	src/httpcomm.c	/^void initThreadHttp()$/;"	f
+initThreadTCP	src/apptcp.c	/^void initThreadTCP()$/;"	f
+libmosq_EXPORT	src/mosquitto.h	46;"	d
+libmosq_EXPORT	src/mosquitto.h	48;"	d
+libmosq_EXPORT	src/mosquitto.h	51;"	d
+linearlist	src/listmanager.h	/^}linearlist;$/;"	t	typeref:struct:__anon30
+ltrim	src/common.c	/^void ltrim ( char *s )$/;"	f
+m_TaskCurrent	src/qcommunicatemanage.h	/^tagTaskItem m_TaskCurrent;\/\/正在执行的任务$/;"	v
+m_bExit	src/qcommunicatebase.h	/^bool m_bExit;$/;"	v
+m_bExitHttp	src/apptcp.h	/^bool m_bExitHttp;$/;"	v
+m_bExitHttp	src/httpcomm.h	/^bool m_bExitHttp;$/;"	v
+m_bManagerExit	src/qcommunicatemanage.h	/^bool m_bManagerExit;$/;"	v
+m_dwTaskStartTime	src/listmanager.h	/^    ULONG m_dwTaskStartTime;\/\/任务上一次执行的起始时间(单位:毫秒),注意:初始化时该值应为0.$/;"	m	struct:__anon29
+m_enTaskState	src/listmanager.h	/^    enTaskState m_enTaskState;\/\/任务状态,注意:初始化时该值应为TS_Ready.$/;"	m	struct:__anon29
+m_enTaskType	src/listmanager.h	/^    enTaskType m_enTaskType;\/\/任务类型$/;"	m	struct:__anon29
+m_iBufSizeRecvNormal	src/qcommunicatebase.h	/^int		m_iBufSizeRecvNormal;\/\/接收平常数据缓冲区大小，默认为1024$/;"	v
+m_iBufSizeSendNormal	src/qcommunicatebase.h	/^int		m_iBufSizeSendNormal;\/\/发送平常数据缓冲区大小，默认为128$/;"	v
+m_iRecvLen	src/qcommunicatemanage.h	/^int m_iRecvLen;$/;"	v
+m_list_TaskStorage	src/qcommunicatemanage.h	/^linearlist *m_list_TaskStorage[TT_Bottom];$/;"	v
+m_pBufRecvNormal	src/qcommunicatebase.h	/^UCHAR	*m_pBufRecvNormal;\/\/接收平常数据缓冲区$/;"	v
+m_pBufSendNormal	src/qcommunicatebase.h	/^char	*m_pBufSendNormal;\/\/发送平常数据缓冲区$/;"	v
+m_pFunTaskCallback	src/listmanager.h	/^    FUNC_TASKCALLBACK m_pFunTaskCallback;\/\/任务的回调函数$/;"	m	struct:__anon29
+m_pFuncRecvNormal	src/qcommunicatebase.h	/^FUNC_RECVSUCCESS		m_pFuncRecvNormal;\/\/接收成功时调用$/;"	v
+m_ucAddr	src/listmanager.h	/^    UCHAR m_ucAddr;		    \/\/从机地址(1个字节)$/;"	m	struct:__anon18
+m_ucAddr	src/listmanager.h	/^    UCHAR m_ucAddr;		    \/\/从机地址(1个字节)$/;"	m	struct:__anon19
+m_ucAddr	src/listmanager.h	/^    UCHAR m_ucAddr;		    \/\/从机地址(1个字节)$/;"	m	struct:__anon21
+m_ucAddr	src/listmanager.h	/^    UCHAR m_ucAddr;		 \/\/从机地址(1个字节)$/;"	m	struct:__anon17
+m_ucAddr	src/listmanager.h	/^    UCHAR m_ucAddr;		\/\/从机地址(1个字节)$/;"	m	struct:__anon20
+m_ucAddr	src/listmanager.h	/^    UCHAR m_ucAddr;		\/\/从机地址(1个字节)$/;"	m	struct:__anon22
+m_ucByteNum	src/listmanager.h	/^    UCHAR m_ucByteNum;      \/\/字节数(1个字节)$/;"	m	struct:__anon19
+m_ucCommand	src/listmanager.h	/^    UCHAR m_ucCommand;	\/\/命令码(1个字节)$/;"	m	struct:__anon20
+m_ucCommand	src/listmanager.h	/^    UCHAR m_ucCommand;	\/\/命令码(1个字节)$/;"	m	struct:__anon22
+m_ucCommand	src/listmanager.h	/^    UCHAR m_ucCommand;      \/\/命令码(1个字节)$/;"	m	struct:__anon18
+m_ucCommand	src/listmanager.h	/^    UCHAR m_ucCommand;      \/\/命令码(1个字节)$/;"	m	struct:__anon19
+m_ucCommand	src/listmanager.h	/^    UCHAR m_ucCommand;      \/\/命令码(1个字节)$/;"	m	struct:__anon21
+m_ucCommand	src/listmanager.h	/^    UCHAR m_ucCommand;   \/\/命令码(1个字节)$/;"	m	struct:__anon17
+m_ucCommand	src/listmanager.h	/^    UCHAR m_ucCommand;\/\/变频器的命令码$/;"	m	struct:__anon29
+m_ucFault	src/listmanager.h	/^    UCHAR m_ucFault;	\/\/错误代码(1个字节)$/;"	m	struct:__anon22
+m_ucHReadNum	src/listmanager.h	/^    UCHAR m_ucHReadNum;	 \/\/数据个数高位(1个字节)$/;"	m	struct:__anon17
+m_ucHStartAddr	src/listmanager.h	/^    UCHAR m_ucHStartAddr;\/\/起始地址高位(1个字节)$/;"	m	struct:__anon17
+m_ucHWriteAddr	src/listmanager.h	/^    UCHAR m_ucHWriteAddr;   \/\/写数据地址高位(1个字节)$/;"	m	struct:__anon18
+m_ucHWriteAddr	src/listmanager.h	/^    UCHAR m_ucHWriteAddr;   \/\/写数据起始地址高位(1个字节)$/;"	m	struct:__anon19
+m_ucHWriteAddr	src/listmanager.h	/^    UCHAR m_ucHWriteAddr;   \/\/写数据起始地址高位(1个字节)$/;"	m	struct:__anon21
+m_ucHWriteContent	src/listmanager.h	/^    UCHAR m_ucHWriteContent;\/\/数据内容高位(1个字节)$/;"	m	struct:__anon18
+m_ucHWriteNum	src/listmanager.h	/^    UCHAR m_ucHWriteNum;    \/\/数据个数高位(1个字节)$/;"	m	struct:__anon19
+m_ucHWriteNum	src/listmanager.h	/^    UCHAR m_ucHWriteNum;    \/\/数据个数高位(1个字节)$/;"	m	struct:__anon21
+m_ucLReadNum	src/listmanager.h	/^    UCHAR m_ucLReadNum;	 \/\/数据个数低位(1个字节)$/;"	m	struct:__anon17
+m_ucLStartAddr	src/listmanager.h	/^    UCHAR m_ucLStartAddr;\/\/起始地址低位(1个字节)$/;"	m	struct:__anon17
+m_ucLWriteAddr	src/listmanager.h	/^    UCHAR m_ucLWriteAddr;   \/\/写数据地址低位(1个字节)$/;"	m	struct:__anon18
+m_ucLWriteAddr	src/listmanager.h	/^    UCHAR m_ucLWriteAddr;   \/\/写数据起始地址低位(1个字节)$/;"	m	struct:__anon19
+m_ucLWriteAddr	src/listmanager.h	/^    UCHAR m_ucLWriteAddr;   \/\/写数据起始地址低位(1个字节)$/;"	m	struct:__anon21
+m_ucLWriteContent	src/listmanager.h	/^    UCHAR m_ucLWriteContent;\/\/数据内容低位(1个字节)$/;"	m	struct:__anon18
+m_ucLWriteNum	src/listmanager.h	/^    UCHAR m_ucLWriteNum;    \/\/数据个数低位(1个字节)$/;"	m	struct:__anon19
+m_ucLWriteNum	src/listmanager.h	/^    UCHAR m_ucLWriteNum;    \/\/数据个数低位(1个字节)$/;"	m	struct:__anon21
+m_ucReadNum	src/listmanager.h	/^    UCHAR m_ucReadNum;	\/\/字节个数(1个字节)$/;"	m	struct:__anon20
+m_ucRecvBuf	src/qcommunicatemanage.h	/^UCHAR m_ucRecvBuf[MAX_RECVNORMAL_BUFFER_SIZE];$/;"	v
+m_ucSendBuf	src/qcommunicatemanage.h	/^UCHAR m_ucSendBuf[MAX_SENDNORMAL_BUFFER_SIZE];$/;"	v
+m_ucTaskErrReason	src/qcommunicatemanage.h	/^UCHAR m_ucTaskErrReason;\/\/任务出错的原因$/;"	v
+m_ucTaskRetry	src/listmanager.h	/^    UCHAR m_ucTaskRetry;\/\/任务失败重试的次数,注意:初始化时该值不能为0.$/;"	m	struct:__anon29
+m_ucTaskRetry_Backup	src/listmanager.h	/^    UCHAR m_ucTaskRetry_Backup;\/\/任务失败重试的次数备份,注意:初始化时该值等于m_ucTaskRetry.$/;"	m	struct:__anon29
+m_ulDataAddr	src/listmanager.h	/^    ULONG m_ulDataAddr;\/\/变频器的数据地址$/;"	m	struct:__anon29
+m_ulDataNum	src/listmanager.h	/^    ULONG m_ulDataNum;\/\/变频器的读\/写数据的字数(单位:字,一个字等于两个字节)$/;"	m	struct:__anon29
+m_ulDeviceAddr	src/listmanager.h	/^    ULONG m_ulDeviceAddr;\/\/变频器的通信地址(串口从机地址或以太网IP地址)$/;"	m	struct:__anon29
+m_ulReserve	src/listmanager.h	/^    ULONG m_ulReserve;\/\/保留(起预留参数的作用,以备不时之需)$/;"	m	struct:__anon29
+m_ulSendBufSize	src/listmanager.h	/^    ULONG m_ulSendBufSize;\/\/任务发送的实际有效数据的长度,该值小于等于MAX_SEND_BUFFER_SIZE$/;"	m	struct:__anon29
+m_ulTaskID	src/listmanager.h	/^    ULONG m_ulTaskID;\/\/任务的身份标识$/;"	m	struct:__anon29
+m_usDataBuf	src/listmanager.h	/^    USHORT m_usDataBuf[MAX_DATA_BUFFER_SIZE];\/\/任务的数据buf,读操作用于存储接收值;写操作用于存储发送值;$/;"	m	struct:__anon29
+m_usTaskOverTime	src/listmanager.h	/^    USHORT m_usTaskOverTime;\/\/任务超时的许可范围,注意:初始化时该值不能为0.$/;"	m	struct:__anon29
+m_usTaskSpan	src/listmanager.h	/^    ULONG m_usTaskSpan;\/\/周期任务的时间间隔(单位:毫秒)$/;"	m	struct:__anon29
+main	src/main.c	/^int main()$/;"	f
+mid	src/mosquitto.h	/^	int mid;$/;"	m	struct:mosquitto_message
+mosq_err_t	src/mosquitto.h	/^enum mosq_err_t {$/;"	g
+mosquitto_message	src/mosquitto.h	/^struct mosquitto_message{$/;"	s
+name_arr	src/qcommunicatebase.c	/^int name_arr[] = {921600, 460800,230400,115200,57600,38400,19200,9600, 4800, 2400,1200,300,38400,19200,9600,4800,2400,1200,300,};$/;"	v
+open_ramrt	src/ramrt.c	/^int open_ramrt()$/;"	f
+pStation	src/ramrt.h	/^StructStation *pStation;$/;"	v
+para	src/listmanager.h	/^    enModifyPara para;$/;"	m	struct:__anon28
+payload	src/mosquitto.h	/^	void *payload;$/;"	m	struct:mosquitto_message
+payloadlen	src/mosquitto.h	/^	int payloadlen;$/;"	m	struct:mosquitto_message
+pop_front	src/listmanager.c	/^void pop_front(linearlist* list)$/;"	f
+push_back	src/listmanager.c	/^void push_back(linearlist* list, tagTaskItem taskItemTemp)$/;"	f
+push_front	src/listmanager.c	/^void push_front(linearlist* list, tagTaskItem taskItemTemp)$/;"	f
+qos	src/mosquitto.h	/^	int qos;$/;"	m	struct:mosquitto_message
+receiveFun	src/main.c	/^void receiveFun(ULONG ulTaskID, ULONG ulDeviceAddr, UCHAR ucCommand,$/;"	f
+receiveFun1	src/main.c	/^void receiveFun1(ULONG ulTaskID, ULONG ulDeviceAddr, UCHAR ucCommand,$/;"	f
+receiveFunHttp	src/httpcomm.c	/^void receiveFunHttp(ULONG ulTaskID, ULONG ulDeviceAddr, UCHAR ucCommand,$/;"	f
+receiveFunTCP	src/apptcp.c	/^void receiveFunTCP(ULONG ulTaskID, ULONG ulDeviceAddr, UCHAR ucCommand,$/;"	f
+retain	src/mosquitto.h	/^	bool retain;$/;"	m	struct:mosquitto_message
+rtrim	src/common.c	/^void rtrim ( char *s )$/;"	f
+sComNum	src/common.h	/^    char sComNum[32];$/;"	m	struct:__anon3
+sVarOldValue	src/common.h	/^    USHORT sVarOldValue;\/\/寄存器上次的值,因为要省流量，相同值不上报$/;"	m	struct:__anon5
+sVarValue	src/common.h	/^    USHORT sVarValue;\/\/寄存器的值(当前值)$/;"	m	struct:__anon5
+sVerifyBit	src/common.h	/^    char sVerifyBit[10];$/;"	m	struct:__anon3
+sendHttp	src/httpcomm.c	/^void sendHttp(int client_sockfd, char* sendBuf)$/;"	f
+sendTCP	src/apptcp.c	/^void sendTCP(int client_sockfd, char* sendBuf)$/;"	f
+setDeviceNumByDriverIndex	src/ramrt.c	/^void setDeviceNumByDriverIndex(int idDriver, int iNum)$/;"	f
+setDownCmdCom1	src/ramrt.c	/^int setDownCmdCom1(char *cmd)$/;"	f
+setDownCmdCom2	src/ramrt.c	/^int setDownCmdCom2(char *cmd)$/;"	f
+setDownCmdLengthCom1	src/ramrt.c	/^int setDownCmdLengthCom1(int iLen)$/;"	f
+setDownCmdLengthCom2	src/ramrt.c	/^int setDownCmdLengthCom2(int iLen)$/;"	f
+setDownDriver1	src/ramrt.c	/^int setDownDriver1(int iValue)$/;"	f
+setDownDriver2	src/ramrt.c	/^int setDownDriver2(int iValue)$/;"	f
+setDownDriver3	src/ramrt.c	/^int setDownDriver3(int iValue)$/;"	f
+setDownDriver4	src/ramrt.c	/^int setDownDriver4(int iValue)$/;"	f
+setNetworkFlag	src/ramrt.c	/^void setNetworkFlag(int iValue)$/;"	f
+setNetworkFlat	src/ramrt.c	/^int setNetworkFlat(int iValue)$/;"	f
+set_device_up_data	src/ramrt.c	/^int set_device_up_data( int driver_id,int device_id,StructUpModbusData *data)$/;"	f
+set_device_verison	src/ramrt.c	/^int set_device_verison( int version)$/;"	f
+set_up_device_addr	src/ramrt.c	/^int set_up_device_addr( int driver_id,int device_id,int addr)$/;"	f
+set_up_device_type	src/ramrt.c	/^int set_up_device_type( int driver_id,int device_id,char *type)$/;"	f
+setiHandAddr	src/ramrt.c	/^int setiHandAddr(int iValue)$/;"	f
+speed_arr	src/qcommunicatebase.c	/^int speed_arr[] = {B921600, B460800, B230400, B115200, B57600, B38400, B19200,B9600,B4800,B2400,B1200,B300,B38400,B19200,B9600,B4800,B2400,B1200,B300,};$/;"	v
+strToHex	src/httpcomm.c	/^int strToHex(char* sour, unsigned char* dest)$/;"	f
+strToHexTCP	src/apptcp.c	/^int strToHexTCP(char* sour, unsigned char* dest)$/;"	f
+tagSerialFaultAck	src/listmanager.h	/^}tagSerialFaultAck;$/;"	t	typeref:struct:__anon22
+tagSerialNormalReadAck	src/listmanager.h	/^}tagSerialNormalReadAck;$/;"	t	typeref:struct:__anon20
+tagSerialNormalReadBody	src/listmanager.h	/^}tagSerialNormalReadBody;$/;"	t	typeref:struct:__anon17
+tagSerialNormalWriteMultiAck	src/listmanager.h	/^}tagSerialNormalWriteMultiAck;$/;"	t	typeref:struct:__anon21
+tagSerialNormalWriteMultiBody	src/listmanager.h	/^}tagSerialNormalWriteMultiBody;$/;"	t	typeref:struct:__anon19
+tagSerialNormalWriteOneBody	src/listmanager.h	/^}tagSerialNormalWriteOneBody;$/;"	t	typeref:struct:__anon18
+tagTaskItem	src/listmanager.h	/^}tagTaskItem;$/;"	t	typeref:struct:__anon29
+tagUserAction	src/listmanager.h	/^}tagUserAction;$/;"	t	typeref:struct:__anon28
+taskItem	src/listmanager.h	/^    tagTaskItem taskItem[MAXLISTSIZE];  \/* 顺序表*\/$/;"	m	struct:__anon30
+threadHttp	src/httpcomm.h	/^pthread_t threadHttp;$/;"	v
+threadTCP	src/apptcp.h	/^pthread_t threadTCP;$/;"	v
+thread_manager	src/qcommunicatemanage.h	/^pthread_t thread_manager;$/;"	v
+thread_receive	src/qcommunicatebase.h	/^pthread_t thread_receive;$/;"	v
+thread_result	src/qcommunicatebase.h	/^void *thread_result;$/;"	v
+topic	src/mosquitto.h	/^	char *topic;$/;"	m	struct:mosquitto_message
+trim	src/common.c	/^void trim ( char *s )$/;"	f
+true	src/apptcp.h	10;"	d
+true	src/common.h	78;"	d
+true	src/httpcomm.h	10;"	d
+true	src/mosquitto.h	57;"	d
+true	src/qcommunicatebase.h	9;"	d
+type	src/listmanager.h	/^    enTaskType type;$/;"	m	struct:__anon28
+ucDataNum	src/common.h	/^    unsigned char   ucDataNum;\/\/读取长度$/;"	m	struct:__anon1
+unitAddrValue	src/ramrt.h	/^    StructModbusUnit unitAddrValue[UPDATAMAX];\/\/保存地址的信息和值$/;"	m	struct:__anon13
+upData	src/ramrt.h	/^    StructDriverUpData upData;\/\/单个驱动所有数据$/;"	m	struct:__anon16
+upDateAllData	src/main.c	/^void upDateAllData(EN_DRIVE_NUM EN_NUM)$/;"	f
+upDateChangeData	src/main.c	/^void upDateChangeData(EN_DRIVE_NUM EN_NUM)$/;"	f
+upDeviceData	src/ramrt.h	/^    StructUpModbusData  upDeviceData[DEVICENUM];\/\/本驱动最多挂8台设备$/;"	m	struct:__anon14
+usAddrStart	src/common.h	/^    unsigned short  usAddrStart;\/\/读数据帧起始地址$/;"	m	struct:__anon1
+usValue	src/ramrt.h	/^    unsigned short usValue;$/;"	m	struct:__anon12
+usVarAddr	src/common.h	/^    unsigned short usVarAddr; \/\/寄存器地址$/;"	m	struct:__anon5
+usVarAddr	src/common.h	/^    unsigned short usVarAddr;\/\/寄存器地址$/;"	m	struct:__anon4
+usVarAddr	src/common.h	/^    unsigned short usVarAddr;\/\/寄存器起始地址$/;"	m	struct:__anon7
+wait_for_millisec	src/ramrt.c	/^void wait_for_millisec(int millisec)$/;"	f
+way	src/listmanager.h	/^    enModifyWay way;$/;"	m	struct:__anon28
+work_mutex	src/qcommunicatemanage.h	/^pthread_mutex_t work_mutex;$/;"	v

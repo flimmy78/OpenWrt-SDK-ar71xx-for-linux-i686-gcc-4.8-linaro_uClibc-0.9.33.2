@@ -1,0 +1,9 @@
+Package: helloworld
+Version: v2
+Depends: libc
+Source: package/helloworld
+Section: utils
+Architecture: ar71xx
+Installed-Size: 1231
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.

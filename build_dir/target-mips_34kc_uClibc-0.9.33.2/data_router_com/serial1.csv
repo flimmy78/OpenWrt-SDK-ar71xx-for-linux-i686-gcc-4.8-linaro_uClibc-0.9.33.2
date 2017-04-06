@@ -1,0 +1,26 @@
+device name,device addr,register addr,register name,read/write type
+device1,1,4096,NULL,w/r
+device1,1,4097,NULL,w/r
+device1,1,4098,NULL,w/r
+device1,1,4099,NULL,w/r
+device1,1,4100,NULL,w/r
+device1,1,4101,NULL,w/r
+device1,1,4102,NULL,w/r
+device1,1,4103,NULL,w/r
+device1,1,4104,NULL,w/r
+device1,1,4105,NULL,w/r
+device1,1,4106,NULL,w/r
+device1,1,4107,NULL,w/r
+device1,1,4108,NULL,w/r
+device1,1,4109,NULL,w/r
+device1,1,4110,NULL,w/r
+device1,1,4111,NULL,w/r
+device1,1,4112,NULL,w/r
+device1,1,4113,NULL,w/r
+device1,1,4114,NULL,w/r
+device1,1,4115,NULL,w/r
+device1,1,4116,NULL,w/r
+device1,1,4117,NULL,w/r
+device1,1,4118,NULL,w/r
+device1,1,4119,NULL,w/r
+device1,1,4120,NULL,w/r
